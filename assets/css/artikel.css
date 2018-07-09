@@ -1,0 +1,20 @@
+.artikel{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+}
+.artikel img{
+  display: block;
+  margin-top: 3%;
+  width: 80%;
+  max-height: 700px;
+}
+
+@media screen and (max-width: 980px) {
+    .artikel{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
